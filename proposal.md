@@ -6,11 +6,11 @@ a banking website with all the typical features you would expect from a bank. Us
 
 Group Members:
 * [Jeffrey Schafer](https://github.com/jeffschafer84)
-* Timothy Spalding
+* [Timothy Spalding](https://github.com/tcspal5892)
 * [John Stratton](https://github.com/bstratton283)
 * [Branden Wagner](https://github.com/bwwagner)
 
-Product Owner: TBA Scrum Master: TBA  
+Product Owner: Professor Chris Stratton Scrum Master: Branden Wagner  
  Development Team: Jeffrey Schafer, Timothy Spalding, John Stratton, & Branden Wagner
 
 - Back End Code      (model)       Timothy Spalding
