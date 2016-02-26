@@ -16,7 +16,7 @@ Development Team Members:
 * [Branden Wagner](https://github.com/bwwagner)
  
 Project Roles:
-- |Back End Code      (model)     |  Timothy Spalding
-- |Front end          (view)      |  Branden Wagner
-- |Front end & Middle (controller)|  John Stratton
-- |Testing                        |  Jeffrey Schafer
+- Back End Code      (model)      -  Timothy Spalding
+- Front end          (view)       -  Branden Wagner
+- Front end & Middle (controller) -  John Stratton
+- Testing                         -  Jeffrey Schafer
