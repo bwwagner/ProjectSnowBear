@@ -15,14 +15,14 @@ namespace SnowCrashBank.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "C346 Spring 2016 Semester Project";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact page.";
 
             return View();
         }
