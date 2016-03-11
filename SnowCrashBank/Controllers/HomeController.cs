@@ -22,7 +22,7 @@ namespace SnowCrashBank.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Contact page";
+            ViewBag.Message = "Contact Information";
 
             return View();
         }

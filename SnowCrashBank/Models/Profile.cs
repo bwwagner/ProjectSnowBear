@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace SnowCrashBank.Models
 {
+    // Do we add Constructor/Destructor or Functions?
     public class Profile
     {
         public int ID { get; set; }

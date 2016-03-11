@@ -49,12 +49,13 @@ namespace SnowCrashBank.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,LastName,FirstMidName,JoinDate")] Profile profile)
         {
-            if (ModelState.IsValid)
-            {
-                db.Profiles.Add(profile);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+           // TODO: Finish profile creation request handling
+           // if (ModelState.IsValid)
+           // {
+           //     db.Profiles.Add(profile);
+           //     db.SaveChanges();
+           //     return RedirectToAction("Index");
+           // }
 
             return View(profile);
         }
