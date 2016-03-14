@@ -6,7 +6,7 @@
 | Choose Database Solution              |       2              |       TBD           | Tim, Branden, Jeff, John |  SQLlite, asp |
 | Choose Webhosting Solution            |       2              |       TBD           | Tim, Branden, Jeff, John |  Amazon, Azure |
 | Design Front Page                     |       8              |     2 (ongoing)     | Branden, John            |  |
-| Finish MVC Prototype                  |       5              |     10 (ongoing)    | Tim, Jeff, Branden       |  MVC Prototype Due  03/14/16 |
+| Finish MVC Prototype                  |       5              |     5               | Tim, Jeff, Branden       |  MVC Prototype Due  03/14/16 |
 | Database Implementation               |       20             |       TBD           | Tim, Jeff, John          |  |
 | Fix Visual Studio Bug                 |       2              |       TBD           | Tim, Jeff                |  |
 | Design Unit Tests for Accounts        |       3              |       TBD           | Branden, Tim             |  |
