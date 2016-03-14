@@ -26,5 +26,11 @@ namespace SnowCrashBank.Controllers
 
             return View();
         }
+        public ActionResult Profile()
+        {
+            ViewBag.Message = "User Profiles";
+
+            return View();
+        }
     }
 }
