@@ -12,5 +12,7 @@
 | Design Unit Tests for Accounts        |       3              |       TBD           | Branden, Tim             |  |
 | Obtain Sample Data                    |       5              |       TBD           | Jeff                     |  |
 | Account Class implementation          |       8              |       TBD           | Tim, John                |  |
-| Implement Wire Transfer Feature       |       6              |      TBD            | TBD                      |  |
-| Transfer Money Feature                |      8               |      TBD            | John, Jeff               |  |
+| Implement Wire Transfer Feature       |       6              |       TBD           | TBD                      |  |
+| Transfer Money Feature                |       8              |       TBD           | John, Jeff               |  |
+| Register Page                         |       8              |       TBD           | John, Jeff               |  |
+| Account View                          |       8              |       TBD           | John, Jeff               |  |
