@@ -15,4 +15,5 @@
 | Implement Wire Transfer Feature       |       6              |       TBD           | TBD                      |  |
 | Transfer Money Feature                |       8              |       TBD           | John, Jeff               |  |
 | Register Page                         |       8              |       TBD           | John, Jeff               |  |
-| Account View                          |       8              |       TBD           | John, Jeff               |  |
+| Account View                          |       8              |       TBD           | Branden, John            |  |
+| Account Summary                       |       8              |       TBD           | John, Jeff               |  |
