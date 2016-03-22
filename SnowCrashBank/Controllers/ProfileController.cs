@@ -50,12 +50,12 @@ namespace SnowCrashBank.Controllers
         public ActionResult Create([Bind(Include = "ID,LastName,FirstMidName,JoinDate")] Profile profile)
         {
            // TODO: Finish profile creation request handling
-           // if (ModelState.IsValid)
-           // {
-           //     db.Profiles.Add(profile);
-           //     db.SaveChanges();
-           //     return RedirectToAction("Index");
-           // }
+           /*if (ModelState.IsValid)
+           {
+               db.Profiles.Add(profile);
+               db.SaveChanges();
+               return RedirectToAction("Index");//change this to redirect to a success page
+           }*/
 
             return View(profile);
         }

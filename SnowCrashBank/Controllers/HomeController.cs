@@ -22,15 +22,8 @@ namespace SnowCrashBank.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Contact Information";
-
             return View();
         }
-        public ActionResult Profile()
-        {
-            ViewBag.Message = "User Profiles";
 
-            return View();
-        }
     }
 }
