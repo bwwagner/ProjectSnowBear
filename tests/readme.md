@@ -1,4 +1,4 @@
-This is a folder to store test files and thier descriptions.
+This is a folder to store test files and their descriptions.
 
 ---
 #####UI_TEST_ONE.html  
