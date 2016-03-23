@@ -10,6 +10,6 @@ A full successful test starts at the home/index and finishes at the [project sno
 
 *Current Status:*  
 + Fully Passes Under Firefox 45.0.1
-+ Other browsers TBA
++ Other browsers TBD
 
 ---
