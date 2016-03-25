@@ -25,12 +25,12 @@ namespace SnowCrashBank.DAL
 
             var accounts = new List<UserAccount>
             {
-                new UserAccount {UserAccountID = 1000250, Title = "Banker", Ammount = 0 },
-                new UserAccount {UserAccountID = 1000370, Title = "Customer", Ammount = 1000 },
-                new UserAccount {UserAccountID = 1000598, Title = "Admin", Ammount = 0 },
-                new UserAccount {UserAccountID = 1000176, Title = "Customer", Ammount = 3000 },
-                new UserAccount {UserAccountID = 1000020, Title = "Customer", Ammount = 8000 },
-                new UserAccount {UserAccountID = 1000999, Title = "Customer", Ammount = 100 },
+                new UserAccount {UserAccountID = 1000250, Title = "Banker", Amount = 0 },
+                new UserAccount {UserAccountID = 1000370, Title = "Customer", Amount = 1000 },
+                new UserAccount {UserAccountID = 1000598, Title = "Admin", Amount = 0 },
+                new UserAccount {UserAccountID = 1000176, Title = "Customer", Amount = 3000 },
+                new UserAccount {UserAccountID = 1000020, Title = "Customer", Amount = 8000 },
+                new UserAccount {UserAccountID = 1000999, Title = "Customer", Amount = 100 },
             };
             accounts.ForEach(s => context.Accounts.Add(s));
             context.SaveChanges();

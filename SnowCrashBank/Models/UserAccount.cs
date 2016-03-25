@@ -8,7 +8,7 @@ namespace SnowCrashBank.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int UserAccountID { get; set; }
         public string Title { get; set; }
-        public int Ammount { get; set; }
+        public int Amount { get; set; }
 
         public virtual ICollection<Join> Joins { get; set; }
     }

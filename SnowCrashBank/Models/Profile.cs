@@ -9,8 +9,18 @@ namespace SnowCrashBank.Models
         public int ID { get; set; }
         public string LastName { get; set; }
         public string FirstMidName { get; set; }
-        public DateTime JoinDate { get; set; }
+        private DateTime _joined = DateTime.Now;
+        public DateTime JoinDate
+          {
+               get { return _joined; }
+               set { _joined = value; }
+          }
+          public string ReturnDateForDisplay
+          {
+               get { return this._joined.ToString("d"); }
+          }
 
-        public virtual ICollection<Join> Joins { set; get; }
+          public virtual ICollection<Join> Joins { set; get; }
     }
+
 }
