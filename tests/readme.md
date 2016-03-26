@@ -13,3 +13,18 @@ A full successful test starts at the home/index and finishes at the [project sno
 + Other browsers TBD
 
 ---
+#####ProfileTest.cs
+*Test Description:*
+These are unit tests written in C# under the Visual Studio 2015 NUnit.  They test basic properties
+of the account class.
+Unit Test Descriptions:
+- NameTest1 is a null failure. 
+- NameTest2 is an intentional null Failure on firstmidname.
+- NameTest3 is an intentional null Failure on lastname
+- NameTest4 is supplied with matching data
+
+*Current Status: 1/4 Passed*
++ NameTest1: Failure, Message: Assert.AreEqual.failed. Expected:<null>. Actual:<Jeremy>. Last Name Incorrect
++ NameTest2: Failure, Message: Assert.AreEqual.failed. Expected:<null>. Actual:<Jeremy>. FirstMid Name Incorrect
++ NameTest3: Failure, Message: Assert.AreEqual.failed. Expected:<null>. Actual:<Schmitt>. Last Name Incorrect
++ NameTest4: Passed
