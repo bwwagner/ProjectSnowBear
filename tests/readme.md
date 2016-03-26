@@ -24,7 +24,7 @@ Unit Test Descriptions:
 - NameTest4 is supplied with matching data
 
 *Current Status: 1/4 Passed*
-+ NameTest1: Failure, Message: Assert.AreEqual.failed. Expected:<null>. Actual:<Jeremy>. Last Name Incorrect
-+ NameTest2: Failure, Message: Assert.AreEqual.failed. Expected:<null>. Actual:<Jeremy>. FirstMid Name Incorrect
-+ NameTest3: Failure, Message: Assert.AreEqual.failed. Expected:<null>. Actual:<Schmitt>. Last Name Incorrect
++ NameTest1: Failure, Message: Assert.AreEqual.failed. Expected:\<null\>. Actual:\<Jeremy\>. Last Name Incorrect
++ NameTest2: Failure, Message: Assert.AreEqual.failed. Expected:\<null\>. Actual:\<Jeremy\>. FirstMid Name Incorrect
++ NameTest3: Failure, Message: Assert.AreEqual.failed. Expected:\<null\>. Actual:\<Schmitt\>. Last Name Incorrect
 + NameTest4: Passed
