@@ -4,11 +4,11 @@
 | Decide project roles                  |       1              |      1              | Tim, Branden, Jeff, John |  |
 | Documentation                         |       35              |        12 (ongoing)|  Branden, John    |    |
 | Train on MVC                          |       20             |     50 (ongoing)    | Tim, Branden, Jeff, John |  |
-| Choose Database Solution              |       2              |       TBD           | Tim, Jeff, John |  SQLlite, asp |
+| Choose Database Solution              |       2              |       5           | Tim, Jeff, John |  SQL Server 2014 Express |
 | Choose Webhosting Solution            |       2              |       TBD           | Tim, Jeff, John |  Amazon, Azure |
 | Design Front Page                     |       8              |     5 (ongoing)     | Branden, Jeff            |  |
 | Finish MVC Prototype                  |       5              |     7     | Jeff, Branden       |  MVC Prototype Due  03/14/16 |
-| Database Implementation               |       20             |       2           | Tim, Jeff, John          |  |
+| SQL Database Implementation               |       20             |       10           | Tim, Jeff, John          |  |
 | Fix Visual Studio Bug   |       2              |       8           | Tim, Jeff                | Seed Method, SQL Server  |
 | Design Unit Tests for Accounts        |       3              |       1           | Branden, Tim             |  |
 | Design and Implement Selenium Tests for UI |       5              |       2 (ongoing)       | Branden                     |  |
