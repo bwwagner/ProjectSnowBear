@@ -14,9 +14,9 @@
 | Design and Implement Selenium Tests for UI |       5              |       2 (ongoing)       | Branden                     |  |
 | Account Class implementation          |       8              |      2 (ongoing)         | Tim, John                |  |
 | Implement Wire Transfer Feature       |       6              |       TBD           | TBD                      |  |
-| Transfer Money Page                |       8              |       3 (ongoing)   | John, Branden              |  |
+| Transfer Money Page                   |       8              |       3 (ongoing)   | John, Branden              |  |
 | Home Views            |       15              |     3         |  Branden |    |
-| Register Page                         |       8              |       2 (ongoing)   | Branden, Jeff                  |  |
+| Register Page / Login / Logout        |       8              |       2 (ongoing)   | Branden, Jeff                  |  |
 | Contact Page                          |       3             |         1 (ongoing)  |  Branden     |   |    |
 | Profile Views         |       15              |       3         | Branden, John |    |
 | Account View                          |       8              |       1 (ongoing)           | Branden, John            |  |
