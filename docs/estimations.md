@@ -6,11 +6,11 @@
 | Train on MVC                          |       20             |     50 (ongoing)    | Tim, Branden, Jeff, John |  |
 | Choose Database Solution              |       2              |       5           | Tim, Jeff, John |  SQL Server 2014 Express |
 | Choose Webhosting Solution            |       2              |       TBD           | Tim, Jeff, John |  Amazon, Azure |
-| Design Front Page                     |       8              |     5 (ongoing)     | Branden, Jeff            |  |
+| Design Front Page                     |       8              |     7 (ongoing)     | Branden, Jeff            |  |
 | Finish MVC Prototype                  |       5              |     7     | Jeff, Branden       |  MVC Prototype Due  03/14/16 |
 | SQL Database Implementation               |       20             |       10           | Tim, Jeff, John          |  |
 | Fix Visual Studio Bug   |       2              |       8           | Tim, Jeff                | Seed Method, SQL Server  |
-| Design Unit Tests for Accounts        |       3              |       1           | Branden, Tim             |  |
+| Design Unit Tests for Accounts        |       3              |       2           | Branden, Tim             |  |
 | Design and Implement Selenium Tests for UI |       5              |       2 (ongoing)       | Branden                     |  |
 | Account Class implementation          |       8              |      2 (ongoing)         | Tim, John                |  |
 | Implement Wire Transfer Feature       |       6              |       TBD           | TBD                      |  |
