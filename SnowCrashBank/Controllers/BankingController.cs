@@ -28,5 +28,11 @@ namespace SnowCrashBank.Controllers
             return View();
         }
 
-    }
+        public ActionResult Success()
+        {
+            ViewBag.Message = "Success page";
+            return View();
+        }
+
+     }
 }

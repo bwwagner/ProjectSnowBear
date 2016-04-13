@@ -219,6 +219,7 @@
     <Content Include="Views\Banking\Deposit.cshtml" />
     <Content Include="Views\Banking\Transfer.cshtml" />
     <Content Include="Views\Banking\Withdraw.cshtml" />
+    <Content Include="Views\Profile\Success.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -50,19 +50,28 @@ namespace SnowCrashBank.Controllers
         public ActionResult Create([Bind(Include = "ID,LastName,FirstMidName,JoinDate")] Profile profile)
         {
            // TODO: Finish profile creation request handling
-           /*if (ModelState.IsValid)
+           // Current Issue: SQL Model Invalid
+           /*
+           if (ModelState.IsValid)
            {
                db.Profiles.Add(profile);
                db.SaveChanges();
-               return RedirectToAction("Index");//change this to redirect to a success page
-           }*/
-
+               return RedirectToAction("Success");//change this to redirect to a success page
+           }
+           */
             return View(profile);
         }
 
-        // GET: Profiles/Edit/5
-        public ActionResult Edit(int? id)
+          public ActionResult Success()
+          {
+               //TODO: Add timed redirect to created profile view page
+               return View();
+          }
+
+          // GET: Profiles/Edit/5
+          public ActionResult Edit(int? id)
         {
+               
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -73,6 +82,7 @@ namespace SnowCrashBank.Controllers
                 return HttpNotFound();
             }
             return View(profile);
+            
         }
 
         // POST: Profiles/Edit/5
@@ -82,7 +92,7 @@ namespace SnowCrashBank.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ID,LastName,FirstMidName,JoinDate")] Profile profile)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid)   // TODO: Fix failure of this check
             {
                 db.Entry(profile).State = EntityState.Modified;
                 db.SaveChanges();
@@ -117,7 +127,7 @@ namespace SnowCrashBank.Controllers
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
+          protected override void Dispose(bool disposing)
         {
             if (disposing)
             {

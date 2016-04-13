@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SnowCrashBank.Models
 {
-    // Do we add Constructor/Destructor or Functions?
+    // User money accounts
     public class Banking
     {
         public int ID { get; set; }

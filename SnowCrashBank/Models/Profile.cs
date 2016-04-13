@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SnowCrashBank.Models
 {
-    // Do we add Constructor/Destructor or Functions?
+    // ID = Account Number, or should we generate a separate number?
     public class Profile
     {
         public int ID { get; set; }
