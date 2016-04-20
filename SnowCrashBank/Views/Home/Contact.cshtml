@@ -9,20 +9,41 @@
 <html>
 
 <body>
-     <address>
-          Indiana University Southeast<br />
-          4201 Grant Line Rd.<br />
-          New Albany, IN 47150<br />
-          <abbr title="Phone">P:</abbr>
-          (812)867.5309
-     </address>
 
-     <address>
-          <strong>Testing:</strong>  <a href="https://github.com/jeffschafer84">Jeffrey Schafer</a><br />
-          <strong>Support:</strong> <a href="https://github.com/tcspal5892">Timothy Spalding</a><br />
-          <strong>Marketing:</strong> <a href="https://github.com/bstratton283">John Stratton</a><br />
-          <strong>Solution Manager:</strong> <a href="https://github.com/bwwagner">Branden Wagner</a><br />
-     </address>
+    <div id="map">
+        <script>
+            function initMap() {
+                var mapDiv = document.getElementById("map");
+                var iusCoordinates = new google.maps.LatLng(38.345717, -85.816864, 13);
+                var map = new google.maps.Map(mapDiv, {
+                    center: iusCoordinates,
+                    zoom: 11
+                });
+                var marker = new google.maps.Marker({
+                    position: iusCoordinates,
+                    map: map
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+    </div>
+
+    <div>
+        <address>
+            Indiana University Southeast<br />
+            4201 Grant Line Rd.<br />
+            New Albany, IN 47150<br />
+            <abbr title="Phone">P:</abbr>
+            (812)867.5309
+        </address>
+
+        <address>
+            <strong>Testing:</strong>  <a href="https://github.com/jeffschafer84">Jeffrey Schafer</a><br />
+            <strong>Support:</strong> <a href="https://github.com/tcspal5892">Timothy Spalding</a><br />
+            <strong>Marketing:</strong> <a href="https://github.com/bstratton283">John Stratton</a><br />
+            <strong>Solution Manager:</strong> <a href="https://github.com/bwwagner">Branden Wagner</a><br />
+        </address>
+    </div>
 
 </body>
 
