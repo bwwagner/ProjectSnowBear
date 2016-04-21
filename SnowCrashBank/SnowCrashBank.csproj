@@ -165,7 +165,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Banking.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\UserAccount.cs" />
     <Compile Include="Models\Join.cs" />
     <Compile Include="Models\Profile.cs" />
