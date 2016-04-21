@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="ProfileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="app.config" />
     <None Include="UI_test_one_csharp.cs" />
   </ItemGroup>
   <ItemGroup>
