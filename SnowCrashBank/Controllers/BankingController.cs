@@ -9,7 +9,7 @@ namespace SnowCrashBank.Controllers
 {
     public class BankingController : Controller
     {
-        [Authorize]
+       // [Authorize]
         public ActionResult Deposit()
         {
             ViewBag.Message = "Deposit page";
@@ -23,14 +23,14 @@ namespace SnowCrashBank.Controllers
             return View();
         }
 
-        [Authorize]
+        //[Authorize]
         public ActionResult Transfer()
         {
             ViewBag.Message = "Transfer page";
             return View();
         }
 
-        [Authorize]
+       // [Authorize]
         public ActionResult Success()
         {
             ViewBag.Message = "Success page";

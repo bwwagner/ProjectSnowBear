@@ -9,6 +9,7 @@ namespace SnowCrashBank.Models
         public int ID { get; set; }
         public string LastName { get; set; }
         public string FirstMidName { get; set; }
+        public string userName { get; set; }
         private DateTime _joined = DateTime.Now;
         public DateTime JoinDate
           {
