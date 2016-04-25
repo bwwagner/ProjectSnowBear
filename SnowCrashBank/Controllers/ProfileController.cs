@@ -49,16 +49,15 @@ namespace SnowCrashBank.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,LastName,FirstMidName,JoinDate")] Profile profile)
         {
-           // TODO: Finish profile creation request handling
-           // Current Issue: SQL Model Invalid
-           /*
+           // Done: Finish profile creation request handling
+           
            if (ModelState.IsValid)
            {
                db.Profiles.Add(profile);
                db.SaveChanges();
                return RedirectToAction("Success");//change this to redirect to a success page
            }
-           */
+           
             return View(profile);
         }
 
