@@ -23,5 +23,4 @@ namespace SnowCrashBank.Models
 
           public virtual ICollection<Join> Joins { set; get; }
     }
-
 }
