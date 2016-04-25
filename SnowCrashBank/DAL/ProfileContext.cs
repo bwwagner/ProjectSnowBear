@@ -13,7 +13,8 @@ namespace SnowCrashBank.DAL
 
         public DbSet<Profile> Profiles { get; set; }
         public DbSet<Join> Joins { get; set; }
-        public DbSet<UserAccount> Accounts { get; set; }        
+        public DbSet<UserAccount> Accounts { get; set; }  
+        public DbSet<Banking> BankAccounts { get; set; }      
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

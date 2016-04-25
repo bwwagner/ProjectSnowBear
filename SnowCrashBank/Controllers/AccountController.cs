@@ -207,7 +207,7 @@ namespace SnowCrashBank.Controllers
             if (user != null)
             {
                 await SignInAsync(user, isPersistent: false);
-                return RedirectToLocal(returnUrl);
+                return RedirectToLocal(returnUrl); 
             }
             else
             {

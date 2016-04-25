@@ -202,9 +202,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201604222250018_login.cs" />
-    <Compile Include="Migrations\201604222250018_login.Designer.cs">
-      <DependentUpon>201604222250018_login.cs</DependentUpon>
+    <Compile Include="Migrations\201604250253276_login.cs" />
+    <Compile Include="Migrations\201604250253276_login.Designer.cs">
+      <DependentUpon>201604250253276_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604250508593_banking.cs" />
+    <Compile Include="Migrations\201604250508593_banking.Designer.cs">
+      <DependentUpon>201604250508593_banking.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -289,8 +293,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201604222250018_login.resx">
-      <DependentUpon>201604222250018_login.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201604250253276_login.resx">
+      <DependentUpon>201604250253276_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604250508593_banking.resx">
+      <DependentUpon>201604250508593_banking.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

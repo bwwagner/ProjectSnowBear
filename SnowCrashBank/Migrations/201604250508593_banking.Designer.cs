@@ -7,13 +7,13 @@ namespace SnowCrashBank.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class login : IMigrationMetadata
+    public sealed partial class banking : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(login));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(banking));
         
         string IMigrationMetadata.Id
         {
-            get { return "201604222250018_login"; }
+            get { return "201604250508593_banking"; }
         }
         
         string IMigrationMetadata.Source
