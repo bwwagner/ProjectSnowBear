@@ -39,8 +39,8 @@ namespace SnowCrashBank.Controllers
         // GET: Profiles/Create
         public ActionResult Create()
         {
-            return View();
-        }
+            return View();  // /Profile/Create.cshtml
+          }
 
         // POST: Profiles/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
@@ -65,7 +65,7 @@ namespace SnowCrashBank.Controllers
           public ActionResult Success()
           {
                //TODO: Add timed redirect to created profile view page
-               return View();
+               return View();  // /Profile/Success.cshtml
           }
 
           // GET: Profiles/Edit/5

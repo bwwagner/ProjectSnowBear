@@ -36,8 +36,8 @@ namespace SnowCrashBank.Controllers
             return View();
         }
 
-        //
-        // POST: /Account/Login
+          
+          // POST: /Account/Login
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]

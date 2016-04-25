@@ -8,22 +8,26 @@ namespace SnowCrashBank.Controllers
 {
     public class HomeController : Controller
     {
+          // Home Page
         public ActionResult Index()
         {
-            return View();
+            ViewBag.Message = "Home Page";
+            return View();  // /Home/Index.cshtml
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "C346 Spring 2016 Semester Project";
 
-            return View();
-        }
+            return View();  // /Home/About.cshtml
+          }
 
         public ActionResult Contact()
         {
-            return View();
-        }
+            ViewBag.Message = "Contact Page";
+
+            return View();  // /Home/Contact.cshtml
+          }
 
      }
 }
