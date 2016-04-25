@@ -9,8 +9,19 @@ It requires opening the localhost version of the website or security permissions
 A full successful test starts at the home/index and finishes at the [project snowcrash github page](https://github.com/bwwagner/ProjectSnowCrash).
 
 *Current Status:*  
-+ Fully Passes Under Firefox 45.0.1
-+ Other browsers TBD
++ Failure Under Firefox 45.0.1
++ Obsolete, fails at transfer money button because the button no longer exists.
+
+#####UI_TEST_TWO.html  
+*Test Description:*  
+This is a Selenium IDE [(version 2.9.0)](https://github.com/SeleniumHQ/selenium/wiki/SeIDEReleaseNotes)   
+automated test which was created using the Firefox Extension.  It is the second version to test the basic  
+functions of the website. It requires opening the localhost version of the website or security permissions from the browser.
+A full successful test starts and finishes at the /home/Index.
+
+*Current Status:*  
++ Passes Under Firefox 45.0.1
+
 
 ---
 #####ProfileTest.cs
