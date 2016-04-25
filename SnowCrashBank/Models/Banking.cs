@@ -10,8 +10,9 @@ namespace SnowCrashBank.Models
         public int ID { get; set; }
         public string userName { get; set; }
         public double Balance { get; set; }
-        
-    }
+          // Required for Transfer Page until full changes are implemented
+          public double checkingAccount { get; set; }  
+     }
 
     public class depositViewModel
     {
